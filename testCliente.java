@@ -1,4 +1,4 @@
-package Mod_Java;
+package Projeto1Mod;
 
 public class testCliente {
 
@@ -7,18 +7,12 @@ public class testCliente {
 		
 System.out.println("\n----- CLIENTE -----");
 		
-		Cliente cliente = new Cliente();
-		
-		cliente.setNome("Pedro");
-		cliente.setIdade("20");
-		cliente.setTelefone("912222222");
-		cliente.setEndereco("Rua Guanabara");
-		
+		Cliente cliente = new Cliente(null, 0);
 	
-		System.out.println(cliente.getNome());
-		System.out.println(cliente.getIdade());
-		System.out.println(cliente.getTelefone());
-		System.out.println(cliente.getEndereco());
+		Cliente cliente1 = new Cliente("Pedro",1234);
+		System.out.println(cliente1.getInfo());
+		cliente1.compra();
+		
 		
 
 	}

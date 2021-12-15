@@ -1,4 +1,4 @@
-package Mod_Java;
+package Projeto1Mod;
 
 public class TestFuncionario {
 
