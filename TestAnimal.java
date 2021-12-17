@@ -6,7 +6,7 @@ public class TestAnimal {
 		// TODO Auto-generated method stub
 		Cachorro cachorro1  = new Cachorro("Speddy","AU AU AU!",61);
 		Cavalo cavalo1= new Cavalo("Maximus","IHIHIHIHHIHI!!",22);
-		Preguica preguica1= new Preguica("Matilda","zzzZzzzZzzz",10);
+		Preguica preguica1= new Preguica(null, null, 0);
 		
 		cachorro1.imprimirInfo();
 		cachorro1.imprimirMovimento();
@@ -20,3 +20,4 @@ public class TestAnimal {
 	}
 	
 }
+
