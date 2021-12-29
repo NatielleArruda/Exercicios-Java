@@ -2,7 +2,7 @@ package Projeto1Mod;
 
 import java.util.Scanner;
 
-public class exercicio3 {
+public class exercicio_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
